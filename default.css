@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: OSBold;
+	src: url("./fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: OSBoldItalic;
+	src: url("./fonts/OpenSans-BoldItalic.ttf");
+}
+
+@font-face {
+	font-family: OSExtraBold;
+	src: url("./fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: OSExtraBoldItalic;
+	src: url("./fonts/OpenSans-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+	font-family: OSItalic;
+	src: url("./fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+	font-family: OSLight;
+	src: url("./fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+	font-family: OSLightItalic;
+	src: url("./fonts/OpenSans-LightItalic.ttf");
+}
+
+@font-face {
+	font-family: OSRegular;
+	src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: OSSemiBold;
+	src: url("./fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: OSSemiBoldItalic;
+	src: url("./fonts/OpenSans-SemiBoldItalic.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+nav {
+	display: flex;
+	height: 75px;
+	background-color: #cfcfcf;
+	width: 100%;
+}
+.nav1 {
+	width: 50%;
+	padding: none;
+	display: inline-flex;
+	justify-content: flex-start;
+	margin: 0px 25px;
+}
+.nav1 img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0px 25px 0px 0px;
+}
+.nav1 a {
+	display: block;
+	margin: auto 0px;
+	padding: 25px 15px;
+	font-family: OSSemiBold;
+	color: #222222;
+	text-decoration-color: transparent;
+	transition: 0.5s;
+}
+.nav1 a:hover {
+	text-decoration-color: #222222;
+}
+.nav2 {
+	width: 50%;
+	padding: none;
+	display: inline-flex;
+	justify-content: flex-end;
+	margin: 0px 25px;
+}
+.nav2 p {
+	display: block;
+	margin: auto 0px;
+	padding: 25px 0px 25px 15px;
+	font-family: OSRegular;
+	color: #222222;
+}
+.nav2 a {
+	display: block;
+	margin: auto 0px;
+	padding: 25px 15px;
+	font-family: OSSemiBold;
+	color: #222222;
+	text-decoration-color: transparent;
+	transition: 0.5s;
+}
+.nav2 a:hover {
+	text-decoration-color: #222222;
+}
+
+
+
+body {
+	background-color: #DDDDDD;
+	background-size: cover;
+}
+.body {
+	display: flex;
+	margin: 0px 50px;
+	width: 100%;
+}
+
+
+.bodysidebar {
+	width: 25%;
+	border-right: 2px dashed rgb(34, 34, 34, 0.3);
+	text-align: center;
+	padding: 0px 50px;
+	display: block;
+}
+.bodypage {
+	width: 75%;
+	text-align: center;
+	padding: 0px 50px;
+	display: block;
+}
+
+
+
+.bodysidebar div {
+	padding: 25px 0px;
+}
+.bodysidebar h3 {
+	font-family: OSSemiBold;
+	color: #222222;
+	margin-bottom: 25px;
+}
+.bodysidebar p {
+	font-family: OSRegular;
+	color: #22222;
+}
+.bodysidebar iframe {
+	width: 100%;
+	height: 400px;
+}
+
+
+
+.bodypage div {
+	padding: 25px 0px;
+}
+.bodypage h2 {
+	font-family: OSSemiBold;
+	color: #222222;
+	margin-bottom: 25px;
+}
+.bodypage h3 {
+	font-family: OSSemiBold;
+	color: #222222;
+	margin-bottom: 25px;
+}
+.bodypage p {
+	font-family: OSRegular;
+	color: #22222;
+}
+
+
+
+.bodylinks {
+	margin: 0px 25px;
+	color: #222222;
+	width: 100%;
+}
+.bodylinks a {
+	display: block;
+	padding: 0px 25px;
+	font-family: OSSemiBold;
+	color: #222222;
+	text-decoration-color: transparent;
+	transition: 0.5s;
+}
+.bodylinks a:hover {
+	text-decoration-color: #222222;
+}
+
+
+
+.slideshow {
+	padding: none;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0px 25px;
+	color: #222222;
+}
+.slideshowtext {
+	display: block;
+	text-align: center;
+	margin: auto 0px;
+	padding: 0px;
+	max-width: 50%;
+}
+.slideshow img {
+	max-width: 50%;
+}
+.slideshow p {
+	padding: 15px;
+}
+
+
+
+.footer {
+	display: flex;
+	margin: 50px 0px;
+	background-color: #cfcfcf;
+	padding: 25px;
+	color: #222222;
+}
+.footer h3 {
+	font-family: OSSemiBold;
+}
+.footer a {
+	font-family: OSRegular;
+	color: #222222;
+	text-decoration-color: transparent;
+	transition: 0.5s;
+
+}
+.footer a:hover {
+	text-decoration-color: #222222;
+}
+.footer1 {
+	width: 50%;
+	padding: none;
+	display: inline-flex;
+	justify-content: flex-start;
+}
+.footer2 {
+	width: 50%;
+	padding: none;
+	display: inline-flex;
+	justify-content: flex-end;
+}
+.footer-category {
+	padding: 0px 25px;
+	width: 15%;
+}
+.footer-category a {
+	display: block;
+}
+.footer-category2 {
+	padding: 0px 25px;
+	width: 70%
+}
+.footer-category2 h4 {
+	font-family: OSSemiBold;
+}
+.footer-category2 p {
+	display: block;
+	font-family: OSLight;
+	margin: 20px 0px;
+}
